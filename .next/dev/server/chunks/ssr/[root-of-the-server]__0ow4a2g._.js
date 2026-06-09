@@ -486,30 +486,30 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$ne
 ;
 const menus = [
     {
-        title: "Intimate Dinners",
-        desc: "Seated experiences for two to twenty — multi-course tasting menus, plated and served in your home.",
+        title: "Hébergement",
+        desc: "Des chambres soigneusement aménagées : confort moderne, literie de qualité, pour votre repos calme et doux.",
         items: [
-            "Seasonal tasting menu",
-            "Wine pairing",
-            "Private chef & service"
+            "Wi-Fi",
+            "Bianderie",
+            "Dejeuner sur place"
         ]
     },
     {
-        title: "Celebrations & Weddings",
-        desc: "Full-scale events with bespoke menus, styling, and a service team that anticipates every need.",
+        title: "Événements & Conférences",
+        desc: "Un espace modulable pour cérémonies, réunions et conférences, capacité 200–250 personnes, équipements audiovisuels et options de restauration sur mesure.",
         items: [
-            "Canapé receptions",
-            "Family-style feasts",
-            "Late-night bar & bites"
+            "200 à 250 personnes",
+            "conférences, mariages, ",
+            "Reunions et événements privés"
         ]
     },
     {
-        title: "Corporate & Cocktail",
-        desc: "Polished grazing tables, canapés, and bar programs for launches, offsites, and milestones.",
+        title: "Restaurant & Service Traiteur",
+        desc: "Cuisine locale et internationale, menus de saison, options végétariennes et plats signature préparés avec des ingrédients frais et locaux.",
         items: [
-            "Grazing installations",
-            "Signature cocktails",
-            "Branded touches"
+            "préparation",
+            "acheminement et service sur site",
+            "Adaptation aux contraintes logistiques."
         ]
     }
 ];
@@ -525,32 +525,32 @@ function Menus() {
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$29$2e$7_react$2d$dom$40$19$2e$2$2e$4_react$40$19$2e$2$2e$4_$5f$react$40$19$2e$2$2e$4$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                             className: "font-sans text-xs uppercase tracking-[0.3em] text-accent",
-                            children: "What we do"
+                            children: "Ce que nous faisons"
                         }, void 0, false, {
                             fileName: "[project]/components/menus.tsx",
-                            lineNumber: 24,
+                            lineNumber: 32,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$29$2e$7_react$2d$dom$40$19$2e$2$2e$4_react$40$19$2e$2$2e$4_$5f$react$40$19$2e$2$2e$4$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
                             className: "mt-4 font-serif text-4xl font-light text-foreground text-balance lg:text-5xl",
-                            children: "Menus & experiences, shaped around you"
+                            children: "Des menus et des expériences conçus spécialement pour vous"
                         }, void 0, false, {
                             fileName: "[project]/components/menus.tsx",
-                            lineNumber: 25,
+                            lineNumber: 35,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$29$2e$7_react$2d$dom$40$19$2e$2$2e$4_react$40$19$2e$2$2e$4_$5f$react$40$19$2e$2$2e$4$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                             className: "mt-5 font-sans text-base leading-relaxed text-muted-foreground",
-                            children: "Every brief is different. We'll build something just for your gathering — but here's where most of our stories begin."
+                            children: "Chaque projet est unique. Nous créerons quelque chose spécialement pour votre événement — mais c’est souvent ainsi que commencent la plupart de nos histoires."
                         }, void 0, false, {
                             fileName: "[project]/components/menus.tsx",
-                            lineNumber: 28,
+                            lineNumber: 38,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/components/menus.tsx",
-                    lineNumber: 23,
+                    lineNumber: 31,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$29$2e$7_react$2d$dom$40$19$2e$2$2e$4_react$40$19$2e$2$2e$4_$5f$react$40$19$2e$2$2e$4$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -566,7 +566,7 @@ function Menus() {
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/menus.tsx",
-                                    lineNumber: 37,
+                                    lineNumber: 48,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$29$2e$7_react$2d$dom$40$19$2e$2$2e$4_react$40$19$2e$2$2e$4_$5f$react$40$19$2e$2$2e$4$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -574,7 +574,7 @@ function Menus() {
                                     children: menu.title
                                 }, void 0, false, {
                                     fileName: "[project]/components/menus.tsx",
-                                    lineNumber: 40,
+                                    lineNumber: 51,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$29$2e$7_react$2d$dom$40$19$2e$2$2e$4_react$40$19$2e$2$2e$4_$5f$react$40$19$2e$2$2e$4$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -582,7 +582,7 @@ function Menus() {
                                     children: menu.desc
                                 }, void 0, false, {
                                     fileName: "[project]/components/menus.tsx",
-                                    lineNumber: 43,
+                                    lineNumber: 54,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$29$2e$7_react$2d$dom$40$19$2e$2$2e$4_react$40$19$2e$2$2e$4_$5f$react$40$19$2e$2$2e$4$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -592,34 +592,34 @@ function Menus() {
                                             children: item
                                         }, item, false, {
                                             fileName: "[project]/components/menus.tsx",
-                                            lineNumber: 48,
+                                            lineNumber: 59,
                                             columnNumber: 19
                                         }, this))
                                 }, void 0, false, {
                                     fileName: "[project]/components/menus.tsx",
-                                    lineNumber: 46,
+                                    lineNumber: 57,
                                     columnNumber: 15
                                 }, this)
                             ]
                         }, menu.title, true, {
                             fileName: "[project]/components/menus.tsx",
-                            lineNumber: 36,
+                            lineNumber: 47,
                             columnNumber: 13
                         }, this))
                 }, void 0, false, {
                     fileName: "[project]/components/menus.tsx",
-                    lineNumber: 34,
+                    lineNumber: 45,
                     columnNumber: 9
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/components/menus.tsx",
-            lineNumber: 22,
+            lineNumber: 30,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/components/menus.tsx",
-        lineNumber: 21,
+        lineNumber: 29,
         columnNumber: 5
     }, this);
 }
@@ -637,16 +637,16 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$ne
 ;
 const stats = [
     {
-        value: "15+",
-        label: "Years catering by the sea"
+        value: "5+",
+        label: "Service traiteur"
     },
     {
-        value: "2,400",
-        label: "Events brought to life"
+        value: "170",
+        label: "Evénements organisés"
     },
     {
         value: "100%",
-        label: "Seasonal, locally sourced"
+        label: "Issus de la production locale"
     }
 ];
 function Story() {
@@ -667,17 +667,17 @@ function Story() {
                             className: "object-cover"
                         }, void 0, false, {
                             fileName: "[project]/components/story.tsx",
-                            lineNumber: 15,
+                            lineNumber: 18,
                             columnNumber: 13
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/components/story.tsx",
-                        lineNumber: 14,
+                        lineNumber: 17,
                         columnNumber: 11
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/components/story.tsx",
-                    lineNumber: 13,
+                    lineNumber: 16,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$29$2e$7_react$2d$dom$40$19$2e$2$2e$4_react$40$19$2e$2$2e$4_$5f$react$40$19$2e$2$2e$4$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -685,26 +685,26 @@ function Story() {
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$29$2e$7_react$2d$dom$40$19$2e$2$2e$4_react$40$19$2e$2$2e$4_$5f$react$40$19$2e$2$2e$4$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                             className: "font-sans text-xs uppercase tracking-[0.3em] text-accent",
-                            children: "Our story"
+                            children: "Notre histoire"
                         }, void 0, false, {
                             fileName: "[project]/components/story.tsx",
-                            lineNumber: 24,
+                            lineNumber: 27,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$29$2e$7_react$2d$dom$40$19$2e$2$2e$4_react$40$19$2e$2$2e$4_$5f$react$40$19$2e$2$2e$4$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
                             className: "mt-4 font-serif text-4xl font-light text-foreground text-balance lg:text-5xl",
-                            children: "Cooking with the seasons, hosting with heart"
+                            children: "Cuisiner au rythme des saisons, recevoir avec cœur"
                         }, void 0, false, {
                             fileName: "[project]/components/story.tsx",
-                            lineNumber: 25,
+                            lineNumber: 30,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$29$2e$7_react$2d$dom$40$19$2e$2$2e$4_react$40$19$2e$2$2e$4_$5f$react$40$19$2e$2$2e$4$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                             className: "mt-6 font-sans text-base leading-relaxed text-muted-foreground",
-                            children: "Maison Verde began with a single long table set under a fig tree. Today our team of chefs, stylists, and hosts brings that same generosity to gatherings of every size — led by produce, guided by craft, and never far from the coast that shaped us."
+                            children: "Le Centre d'accueil Chez Biati a vu le jour autour d'une simple longue table dressée sous un figuier. Aujourd'hui, notre équipe de chefs, de stylistes et d'hôtes met cette même générosité au service de rassemblements de toutes tailles — avec les produits du terroir au cœur de nos créations, guidés par le savoir-faire, et toujours proches de la côte qui nous a façonnés."
                         }, void 0, false, {
                             fileName: "[project]/components/story.tsx",
-                            lineNumber: 28,
+                            lineNumber: 33,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$29$2e$7_react$2d$dom$40$19$2e$2$2e$4_react$40$19$2e$2$2e$4_$5f$react$40$19$2e$2$2e$4$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -716,7 +716,7 @@ function Story() {
                                             children: s.value
                                         }, void 0, false, {
                                             fileName: "[project]/components/story.tsx",
-                                            lineNumber: 37,
+                                            lineNumber: 45,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$29$2e$7_react$2d$dom$40$19$2e$2$2e$4_react$40$19$2e$2$2e$4_$5f$react$40$19$2e$2$2e$4$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -724,30 +724,30 @@ function Story() {
                                             children: s.label
                                         }, void 0, false, {
                                             fileName: "[project]/components/story.tsx",
-                                            lineNumber: 38,
+                                            lineNumber: 48,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, s.label, true, {
                                     fileName: "[project]/components/story.tsx",
-                                    lineNumber: 36,
+                                    lineNumber: 44,
                                     columnNumber: 15
                                 }, this))
                         }, void 0, false, {
                             fileName: "[project]/components/story.tsx",
-                            lineNumber: 34,
+                            lineNumber: 42,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/components/story.tsx",
-                    lineNumber: 23,
+                    lineNumber: 26,
                     columnNumber: 9
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/components/story.tsx",
-            lineNumber: 12,
+            lineNumber: 15,
             columnNumber: 7
         }, this)
     }, void 0, false, {

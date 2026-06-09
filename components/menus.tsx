@@ -1,33 +1,44 @@
 const menus = [
   {
-    title: "Intimate Dinners",
-    desc: "Seated experiences for two to twenty — multi-course tasting menus, plated and served in your home.",
-    items: ["Seasonal tasting menu", "Wine pairing", "Private chef & service"],
+    title: "Hébergement",
+    desc: "Des chambres soigneusement aménagées : confort moderne, literie de qualité, pour votre repos calme et doux.",
+    items: ["Wi-Fi", "Bianderie", "Dejeuner sur place"],
   },
   {
-    title: "Celebrations & Weddings",
-    desc: "Full-scale events with bespoke menus, styling, and a service team that anticipates every need.",
-    items: ["Canapé receptions", "Family-style feasts", "Late-night bar & bites"],
+    title: "Événements & Conférences",
+    desc: "Un espace modulable pour cérémonies, réunions et conférences, capacité 200–250 personnes, équipements audiovisuels et options de restauration sur mesure.",
+    items: [
+      "200 à 250 personnes",
+      "conférences, mariages, ",
+      "Reunions et événements privés",
+    ],
   },
   {
-    title: "Corporate & Cocktail",
-    desc: "Polished grazing tables, canapés, and bar programs for launches, offsites, and milestones.",
-    items: ["Grazing installations", "Signature cocktails", "Branded touches"],
+    title: "Restaurant & Service Traiteur",
+    desc: "Cuisine locale et internationale, menus de saison, options végétariennes et plats signature préparés avec des ingrédients frais et locaux.",
+    items: [
+      "préparation",
+      "acheminement et service sur site",
+      "Adaptation aux contraintes logistiques.",
+    ],
   },
-]
+];
 
 export function Menus() {
   return (
     <section id="menus" className="bg-secondary py-24 lg:py-32">
       <div className="mx-auto max-w-7xl px-6 lg:px-10">
         <div className="max-w-2xl">
-          <p className="font-sans text-xs uppercase tracking-[0.3em] text-accent">What we do</p>
+          <p className="font-sans text-xs uppercase tracking-[0.3em] text-accent">
+            Ce que nous faisons
+          </p>
           <h2 className="mt-4 font-serif text-4xl font-light text-foreground text-balance lg:text-5xl">
-            Menus & experiences, shaped around you
+            Des menus et des expériences conçus spécialement pour vous
           </h2>
           <p className="mt-5 font-sans text-base leading-relaxed text-muted-foreground">
-            Every brief is different. We&apos;ll build something just for your gathering — but
-            here&apos;s where most of our stories begin.
+            Chaque projet est unique. Nous créerons quelque chose spécialement
+            pour votre événement — mais c’est souvent ainsi que commencent la
+            plupart de nos histoires.
           </p>
         </div>
 
@@ -58,5 +69,5 @@ export function Menus() {
         </div>
       </div>
     </section>
-  )
+  );
 }
