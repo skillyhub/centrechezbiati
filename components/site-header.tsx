@@ -1,53 +1,59 @@
-"use client"
+"use client";
 
-import Link from "next/link"
-import { usePathname } from "next/navigation"
-import { useState, useEffect } from "react"
-import { Menu, X } from "lucide-react"
-import { cn } from "@/lib/utils"
+import Link from "next/link";
+import { usePathname } from "next/navigation";
+import { useState, useEffect } from "react";
+import { Menu, X } from "lucide-react";
+import { cn } from "@/lib/utils";
 
 const navLinks = [
-  { label: "Experiences", href: "#experiences" },
-  { label: "Menus", href: "#menus" },
-  { label: "Events", href: "#events" },
-  { label: "Our Story", href: "#story" },
+  { label: "Restaurant", href: "#restaurant" },
+  { label: "Services", href: "#services" },
+  { label: "Événements", href: "#evenements" },
+  { label: "Service traiteur", href: "#service-traiteur" },
   { label: "Contact", href: "#contact" },
-]
+];
 
 export function SiteHeader() {
-  const pathname = usePathname()
-  const [open, setOpen] = useState(false)
-  const [scrolled, setScrolled] = useState(false)
+  const pathname = usePathname();
+  const [open, setOpen] = useState(false);
+  const [scrolled, setScrolled] = useState(false);
 
   // Only the home page has a full-bleed hero behind a transparent header.
-  const overlay = pathname === "/"
+  const overlay = pathname === "/";
 
   useEffect(() => {
-    const onScroll = () => setScrolled(window.scrollY > 40)
-    onScroll()
-    window.addEventListener("scroll", onScroll)
-    return () => window.removeEventListener("scroll", onScroll)
-  }, [])
+    const onScroll = () => setScrolled(window.scrollY > 40);
+    onScroll();
+    window.addEventListener("scroll", onScroll);
+    return () => window.removeEventListener("scroll", onScroll);
+  }, []);
 
   // Solid styling when not overlaying a hero, or once scrolled past the top.
-  const solid = !overlay || scrolled
+  const solid = !overlay || scrolled;
 
   return (
     <header
       className={cn(
         "fixed inset-x-0 top-0 z-50 transition-colors duration-500",
-        solid ? "bg-background/90 backdrop-blur-sm shadow-sm" : "bg-transparent",
+        solid
+          ? "bg-background/90 backdrop-blur-sm shadow-sm"
+          : "bg-transparent",
       )}
     >
       <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-5 lg:px-10">
-        <Link href="/" className="flex flex-col leading-none" onClick={() => setOpen(false)}>
+        <Link
+          href="/"
+          className="flex flex-col leading-none"
+          onClick={() => setOpen(false)}
+        >
           <span
             className={cn(
               "font-serif text-2xl tracking-[0.3em] transition-colors",
               solid ? "text-foreground" : "text-card",
             )}
           >
-            MAISON
+            CHEZ BIATI
           </span>
           <span
             className={cn(
@@ -55,7 +61,7 @@ export function SiteHeader() {
               solid ? "text-accent" : "text-card/80",
             )}
           >
-            VERDE
+            CENTRE D'ACCUEIL
           </span>
         </Link>
 
@@ -75,7 +81,7 @@ export function SiteHeader() {
           ))}
         </nav>
 
-        <Link
+        {/* <Link
           href="/contact"
           className={cn(
             "hidden border px-6 py-2.5 font-sans text-xs uppercase tracking-[0.18em] transition-colors md:inline-block",
@@ -84,7 +90,7 @@ export function SiteHeader() {
               : "border-card/60 text-card hover:bg-card hover:text-foreground",
           )}
         >
-          Enquire
+          Parlons-en
         </Link>
 
         <button
@@ -94,10 +100,10 @@ export function SiteHeader() {
           aria-label={open ? "Close menu" : "Open menu"}
         >
           {open ? <X className="size-6" /> : <Menu className="size-6" />}
-        </button>
+        </button> */}
       </div>
 
-      {open && (
+      {/* {open && (
         <div className="border-t border-border bg-background md:hidden">
           <nav className="flex flex-col px-6 py-4">
             {navLinks.map((link) => (
@@ -118,11 +124,11 @@ export function SiteHeader() {
               onClick={() => setOpen(false)}
               className="mt-4 bg-accent px-6 py-3 text-center font-sans text-xs uppercase tracking-[0.18em] text-accent-foreground"
             >
-              Enquire
+              Parlons-ens
             </Link>
           </nav>
         </div>
-      )}
+      )} */}
     </header>
-  )
+  );
 }

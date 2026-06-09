@@ -1,21 +1,29 @@
-import type { Metadata } from "next"
-import { SiteHeader } from "@/components/site-header"
-import { SiteFooter } from "@/components/site-footer"
-import { Contact } from "@/components/contact"
-import { MapPin, Phone, Mail, Clock } from "lucide-react"
+import type { Metadata } from "next";
+import { SiteHeader } from "@/components/site-header";
+import { SiteFooter } from "@/components/site-footer";
+import { Contact } from "@/components/contact";
+import { MapPin, Phone, Mail, Clock } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Contact | Maison Verde",
+  title: "Contact | Centre d'accueil Chez Biati",
   description:
-    "Enquire about catering for your wedding, corporate event, or private dinner. Maison Verde — Fortitude Valley, QLD.",
-}
+    "Renseignez-vous sur nos services de traiteur pour votre mariage, votre événement d'entreprise ou votre dîner privé.",
+};
 
 const details = [
-  { icon: MapPin, label: "Studio", lines: ["46 James Street", "Fortitude Valley, QLD 4006"] },
+  {
+    icon: MapPin,
+    label: "Studio",
+    lines: ["46 James Street", "Fortitude Valley, QLD 4006"],
+  },
   { icon: Phone, label: "Phone", lines: ["+61 7 5607 5888"] },
   { icon: Mail, label: "Email", lines: ["hello@maisonverde.com"] },
-  { icon: Clock, label: "Hours", lines: ["Mon–Fri, 9am–5pm", "Events by appointment"] },
-]
+  {
+    icon: Clock,
+    label: "Hours",
+    lines: ["Mon–Fri, 9am–5pm", "Events by appointment"],
+  },
+];
 
 export default function ContactPage() {
   return (
@@ -25,13 +33,16 @@ export default function ContactPage() {
       {/* Intro band (sits below the fixed header) */}
       <section className="bg-secondary pt-32 pb-20 lg:pt-40 lg:pb-24">
         <div className="mx-auto max-w-7xl px-6 lg:px-10">
-          <p className="font-sans text-xs uppercase tracking-[0.4em] text-accent">Get in touch</p>
+          <p className="font-sans text-xs uppercase tracking-[0.4em] text-accent">
+            Get in touch
+          </p>
           <h1 className="mt-5 max-w-3xl font-serif text-5xl font-light leading-[0.95] text-foreground text-balance lg:text-6xl">
-            Let&apos;s plan something memorable
+            Organisons quelque chose d'inoubliable
           </h1>
           <p className="mt-6 max-w-xl font-sans text-base leading-relaxed text-muted-foreground">
-            Whether it&apos;s an intimate dinner or a celebration for hundreds, we&apos;d love to
-            hear about it. Reach us directly, or send an enquiry below.
+            Qu'il s'agisse d'un dîner en tête-à-tête ou d'une fête réunissant
+            des centaines de personnes, nous serions ravis d'en savoir plus.
+            Contactez-nous directement ou envoyez-nous une demande ci-dessous.
           </p>
 
           <div className="mt-14 grid gap-10 sm:grid-cols-2 lg:grid-cols-4">
@@ -43,7 +54,10 @@ export default function ContactPage() {
                 </h2>
                 <div className="flex flex-col gap-1">
                   {d.lines.map((line) => (
-                    <span key={line} className="font-serif text-lg font-light text-foreground">
+                    <span
+                      key={line}
+                      className="font-serif text-lg font-light text-foreground"
+                    >
                       {line}
                     </span>
                   ))}
@@ -59,5 +73,5 @@ export default function ContactPage() {
 
       <SiteFooter />
     </main>
-  )
+  );
 }
