@@ -1795,12 +1795,6 @@
   }
 
   @media (hover: hover) {
-    .hover\:text-card:hover {
-      color: var(--card);
-    }
-  }
-
-  @media (hover: hover) {
     .hover\:text-foreground:hover {
       color: var(--foreground);
     }

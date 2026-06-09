@@ -9,7 +9,7 @@ const stats = [
 export function Story() {
   return (
     <section
-      id="story"
+      id="service-traiteur"
       className="mx-auto max-w-7xl px-6 py-24 lg:px-10 lg:py-32"
     >
       <div className="grid gap-12 md:grid-cols-12 md:items-center">

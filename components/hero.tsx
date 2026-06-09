@@ -31,10 +31,10 @@ export function Hero() {
               Planifiez votre événement
             </a>
             <a
-              href="#menus"
+              href="#services"
               className="inline-block border border-card/60 px-8 py-3.5 text-center font-sans text-xs uppercase tracking-[0.22em] text-card transition-colors hover:bg-card hover:text-foreground"
             >
-              Explorez nos Menus
+              Explorez nos services
             </a>
           </div>
         </div>

@@ -7,10 +7,10 @@ import { Menu, X } from "lucide-react";
 import { cn } from "@/lib/utils";
 
 const navLinks = [
-  { label: "Restaurant", href: "#experiences" },
-  { label: "Chambres", href: "#menus" },
-  { label: "Événements", href: "#events" },
-  { label: "Service traiteur", href: "#story" },
+  { label: "Restaurant", href: "#restaurant" },
+  { label: "Services", href: "#services" },
+  { label: "Événements", href: "#evenements" },
+  { label: "Service traiteur", href: "#service-traiteur" },
   { label: "Contact", href: "#contact" },
 ];
 
@@ -81,7 +81,7 @@ export function SiteHeader() {
           ))}
         </nav>
 
-        <Link
+        {/* <Link
           href="/contact"
           className={cn(
             "hidden border px-6 py-2.5 font-sans text-xs uppercase tracking-[0.18em] transition-colors md:inline-block",
@@ -100,10 +100,10 @@ export function SiteHeader() {
           aria-label={open ? "Close menu" : "Open menu"}
         >
           {open ? <X className="size-6" /> : <Menu className="size-6" />}
-        </button>
+        </button> */}
       </div>
 
-      {open && (
+      {/* {open && (
         <div className="border-t border-border bg-background md:hidden">
           <nav className="flex flex-col px-6 py-4">
             {navLinks.map((link) => (
@@ -128,7 +128,7 @@ export function SiteHeader() {
             </Link>
           </nav>
         </div>
-      )}
+      )} */}
     </header>
   );
 }

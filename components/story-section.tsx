@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export function StorySection() {
   return (
-    <section id="experiences" className="mx-auto max-w-7xl px-6 lg:px-10">
+    <section id="restaurant" className="mx-auto max-w-7xl px-6 lg:px-10">
       {/* A Menu Begins */}
       <div className="grid gap-10 pb-28 md:grid-cols-12 md:items-start">
         <div className="md:col-span-4 md:pt-24">
@@ -23,10 +23,10 @@ export function StorySection() {
             qu'il faut pour être réussie.
           </p>
           <a
-            href="#menus"
+            href="#services"
             className="mt-6 inline-block font-sans text-xs uppercase tracking-[0.2em] text-accent underline-offset-8 hover:underline"
           >
-            Découvrez nos menus de saison
+            Découvrez services
           </a>
         </div>
         <div className="md:col-span-7 md:col-start-6">
@@ -43,7 +43,7 @@ export function StorySection() {
 
       {/* Time to Gather */}
       <div
-        id="events"
+        id="evenements"
         className="grid gap-10 pb-28 md:grid-cols-12 md:items-end"
       >
         <div className="md:col-span-7 md:order-2">
@@ -75,7 +75,7 @@ export function StorySection() {
             href="#contact"
             className="mt-6 inline-block font-sans text-xs uppercase tracking-[0.2em] text-accent underline-offset-8 hover:underline"
           >
-            Découvrez nos services d'événements
+            Planifions ensemble
           </a>
         </div>
       </div>
@@ -98,10 +98,10 @@ export function StorySection() {
             dès le lendemain matin. De nouveaux chapitres s’ouvrent.
           </p>
           <a
-            href="#menus"
+            href="#services"
             className="mt-6 inline-block font-sans text-xs uppercase tracking-[0.2em] text-accent underline-offset-8 hover:underline"
           >
-            Découvrez nos menus de boissons et de canapés
+            Découvrez nos services
           </a>
         </div>
         <div className="md:col-span-7 md:col-start-6">

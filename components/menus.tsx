@@ -26,7 +26,7 @@ const menus = [
 
 export function Menus() {
   return (
-    <section id="menus" className="bg-secondary py-24 lg:py-32">
+    <section id="services" className="bg-secondary py-24 lg:py-32">
       <div className="mx-auto max-w-7xl px-6 lg:px-10">
         <div className="max-w-2xl">
           <p className="font-sans text-xs uppercase tracking-[0.3em] text-accent">
