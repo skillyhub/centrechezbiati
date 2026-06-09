@@ -51,12 +51,12 @@ export function Contact() {
               }}
             >
               <div className="grid gap-5 sm:grid-cols-2">
-                <Field label="Full name" name="name" type="text" required />
+                <Field label="Nom Complet" name="name" type="text" required />
                 <Field label="Email" name="email" type="email" required />
               </div>
               <div className="grid gap-5 sm:grid-cols-2">
-                <Field label="Event date" name="date" type="date" />
-                <Field label="Guests" name="guests" type="number" />
+                <Field label="Date de l'événement" name="date" type="date" />
+                <Field label="Invités" name="guests" type="number" />
               </div>
               <div className="flex flex-col gap-2">
                 <label
@@ -70,7 +70,7 @@ export function Contact() {
                   name="details"
                   rows={3}
                   className="border-0 border-b border-card/30 bg-transparent py-2 font-sans text-sm text-card placeholder:text-card/40 focus:border-card focus:outline-none"
-                  placeholder="Occasion, location, style…"
+                  placeholder="Occasions, restauration, style…"
                 />
               </div>
               <button
