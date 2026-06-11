@@ -1,10 +1,11 @@
 import Link from 'next/link';
 
 const exploreLinks = [
-  { label: 'Menus', href: '/menus' },
-  { label: 'Services', href: '/services' },
-  { label: 'Gallery', href: '/gallery' },
-  { label: 'Contact', href: '/contact' },
+  { label: 'Restaurant', href: '#restaurant' },
+  { label: 'Services', href: '#services' },
+  { label: 'Événements', href: '#evenements' },
+  { label: 'Service traiteur', href: '#service-traiteur' },
+  { label: 'Contact', href: '#contact' },
 ];
 
 const contactDetails = [
