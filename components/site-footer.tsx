@@ -1,10 +1,11 @@
 import Link from 'next/link';
 
 const exploreLinks = [
-  { label: 'Menus', href: '/menus' },
-  { label: 'Services', href: '/services' },
-  { label: 'Gallery', href: '/gallery' },
-  { label: 'Contact', href: '/contact' },
+  { label: 'Restaurant', href: 'restaurant' },
+  { label: 'Services', href: 'services' },
+  { label: 'Événements', href: 'evenements' },
+  { label: 'Service traiteur', href: 'service-traiteur' },
+  { label: 'Contact', href: 'contact' },
 ];
 
 const contactDetails = [
@@ -36,7 +37,7 @@ export function SiteFooter() {
               {exploreLinks.map(({ label, href }) => (
                 <li key={href}>
                   <Link
-                    href={href}
+                    href={'#' + href}
                     className="font-sans text-sm text-card/70 transition-colors hover:text-card"
                   >
                     {label}
